@@ -6,7 +6,9 @@ import './global.css';
 export default function App() {
   return (
     <>
-      <ScreenContent title="Home" path="App.tsx" />
+      <ScreenContent title="Welcome to Saventive" path="/App.tsx">
+        <StatusBar style="auto" />
+      </ScreenContent>
       <StatusBar style="auto" />
     </>
   );

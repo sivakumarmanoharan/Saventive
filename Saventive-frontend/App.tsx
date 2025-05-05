@@ -8,6 +8,9 @@ import LoginComponent from 'components/LoginComponent';
 
 export default function App() {
   return (
-    <LoginComponent />
+    <>
+      <View className="flex-1 bg-blue-200 justify-center items-end-safe px-6" />
+      <LoginComponent />
+    </>
   );
 }
